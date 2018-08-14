@@ -26,7 +26,7 @@ Store.create(name: "Gastown",
   mens_apparel: true,
   womens_apparel: false)
 
-puts "you have this many stores #{Store.count}"
+puts Store.count
 
 
 
